@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let token = localStorage.getItem("token") ? localStorage.getItem("token") : null;
-  const baseURL = "http://127.0.0.1:8000/api";
+  const baseURL = "https://raptorr.a-lux.dev/api";
   const httpClient = axios.create({
     baseURL: baseURL,
     timeout: 100000,
